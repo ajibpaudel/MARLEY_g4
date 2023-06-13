@@ -1,0 +1,4 @@
+{
+  int status = system("./vdrift_build/g4workshop 0 0 2 22 10");
+  // system("mv arapuca.root arapuca_muon_10MeV.root");
+}

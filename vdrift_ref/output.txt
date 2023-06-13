@@ -1,0 +1,2506 @@
+
+Processing runcode.C...
+
+*************************************************************
+ Geant4 version Name: geant4-10-03-patch-03    (20-October-2017)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+
+
+***** Table : Nb of materials = 6 *****
+
+ Material: StainlessSteel    density:  7.930 g/cm3   RadL:   1.755 cm   Nucl.Int.Length:  16.812 cm 
+                       Imean: 282.416 eV 
+
+   --->  Element: Carbon (C)   Z =  6.0   N =    12   A = 12.010 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.10 %  ElmAbundance   0.46 % 
+
+   --->  Element: Chromium (Cr)   Z = 24.0   N =    52   A = 51.996 g/mole
+         --->  Isotope:  Cr50   Z = 24   N =  50   A =  49.95 g/mole   abundance:  4.345 %
+         --->  Isotope:  Cr52   Z = 24   N =  52   A =  51.94 g/mole   abundance: 83.789 %
+         --->  Isotope:  Cr53   Z = 24   N =  53   A =  52.94 g/mole   abundance:  9.501 %
+         --->  Isotope:  Cr54   Z = 24   N =  54   A =  53.94 g/mole   abundance:  2.365 %
+          ElmMassFraction:  17.92 %  ElmAbundance  19.01 % 
+
+   --->  Element: Iron (Fe)   Z = 26.0   N =    56   A = 55.850 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction:  72.98 %  ElmAbundance  72.07 % 
+
+   --->  Element: Niquel (Ni)   Z = 28.0   N =    59   A = 58.693 g/mole
+         --->  Isotope:  Ni58   Z = 28   N =  58   A =  57.94 g/mole   abundance: 68.077 %
+         --->  Isotope:  Ni60   Z = 28   N =  60   A =  59.93 g/mole   abundance: 26.223 %
+         --->  Isotope:  Ni61   Z = 28   N =  61   A =  60.93 g/mole   abundance:  1.140 %
+         --->  Isotope:  Ni62   Z = 28   N =  62   A =  61.93 g/mole   abundance:  3.635 %
+         --->  Isotope:  Ni64   Z = 28   N =  64   A =  63.93 g/mole   abundance:  0.926 %
+          ElmMassFraction:   9.00 %  ElmAbundance   8.46 % 
+
+
+ Material:      G10    density:  1.700 g/cm3   RadL:  18.497 cm   Nucl.Int.Length:  50.853 cm 
+                       Imean:  98.837 eV 
+
+   --->  Element: Silicon (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction:  28.05 %  ElmAbundance  11.83 % 
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 16.000 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  39.54 %  ElmAbundance  29.26 % 
+
+   --->  Element: Carbon (C)   Z =  6.0   N =    12   A = 12.010 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  29.90 %  ElmAbundance  29.48 % 
+
+   --->  Element: Hydrogen (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   2.51 %  ElmAbundance  29.43 % 
+
+
+ Material: Aluminium    density:  2.700 g/cm3   RadL:   8.893 cm   Nucl.Int.Length:  38.879 cm 
+                       Imean: 166.000 eV 
+
+   --->  Element: Al (Al)   Z = 13.0   N =    27   A = 26.980 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: G4_TEFLON    density:  2.200 g/cm3   RadL:  15.839 cm   Nucl.Int.Length:  40.831 cm 
+                       Imean:  99.100 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  24.02 %  ElmAbundance  33.33 % 
+
+   --->  Element: F (F)   Z =  9.0   N =    19   A = 18.998 g/mole
+         --->  Isotope:   F19   Z =  9   N =  19   A =  19.00 g/mole   abundance: 100.000 %
+          ElmMassFraction:  75.98 %  ElmAbundance  66.67 % 
+
+
+ Material:   G4_lAr    density:  1.396 g/cm3   RadL:  14.003 cm   Nucl.Int.Length:  85.706 cm 
+                       Imean: 188.000 eV 
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.948 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:  acrylic    density:  1.180 g/cm3   RadL:  34.368 cm   Nucl.Int.Length:  63.189 cm 
+                       Imean:  68.609 eV 
+
+   --->  Element: Carbon (C)   Z =  6.0   N =    12   A = 12.010 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  59.97 %  ElmAbundance  33.33 % 
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 16.000 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  31.96 %  ElmAbundance  13.33 % 
+
+   --->  Element: Hydrogen (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   8.07 %  ElmAbundance  53.33 % 
+
+
+
+Checking overlaps for volume Cryostat ... OK! 
+Checking overlaps for volume Cathode ... OK! 
+Checking overlaps for volume Anode ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageWide ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageSlim ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShort ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortSlim ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume FieldCageShortaux2 ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWindowLat11 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat11 ... OK! 
+ArapucaWindowLat11 7.431 2.75 2.75
+ArapucaWindowLlat11 -7.431 2.75 -28.5
+Checking overlaps for volume ArapucaWindowLat12 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat12 ... OK! 
+ArapucaWindowLat12 7.431 2.75 2.75
+ArapucaWindowLlat12 -7.431 2.75 -25.5
+Checking overlaps for volume ArapucaWindowLat13 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat13 ... OK! 
+ArapucaWindowLat13 7.431 2.75 2.75
+ArapucaWindowLlat13 -7.431 2.75 -22.5
+Checking overlaps for volume ArapucaWindowLat14 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat14 ... OK! 
+ArapucaWindowLat14 7.431 2.75 2.75
+ArapucaWindowLlat14 -7.431 2.75 -19.5
+Checking overlaps for volume ArapucaWindowLat15 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat15 ... OK! 
+ArapucaWindowLat15 7.431 2.75 2.75
+ArapucaWindowLlat15 -7.431 2.75 -16.5
+Checking overlaps for volume ArapucaWindowLat16 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat16 ... OK! 
+ArapucaWindowLat16 7.431 2.75 2.75
+ArapucaWindowLlat16 -7.431 2.75 -13.5
+Checking overlaps for volume ArapucaWindowLat17 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat17 ... OK! 
+ArapucaWindowLat17 7.431 2.75 2.75
+ArapucaWindowLlat17 -7.431 2.75 -10.5
+Checking overlaps for volume ArapucaWindowLat18 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat18 ... OK! 
+ArapucaWindowLat18 7.431 2.75 2.75
+ArapucaWindowLlat18 -7.431 2.75 -7.5
+Checking overlaps for volume ArapucaWindowLat19 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat19 ... OK! 
+ArapucaWindowLat19 7.431 2.75 2.75
+ArapucaWindowLlat19 -7.431 2.75 -4.5
+Checking overlaps for volume ArapucaWindowLat110 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat110 ... OK! 
+ArapucaWindowLat110 7.431 2.75 2.75
+ArapucaWindowLlat110 -7.431 2.75 -1.5
+Checking overlaps for volume ArapucaWindowLat111 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat111 ... OK! 
+ArapucaWindowLat111 7.431 2.75 2.75
+ArapucaWindowLlat111 -7.431 2.75 1.5
+Checking overlaps for volume ArapucaWindowLat112 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat112 ... OK! 
+ArapucaWindowLat112 7.431 2.75 2.75
+ArapucaWindowLlat112 -7.431 2.75 4.5
+Checking overlaps for volume ArapucaWindowLat113 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat113 ... OK! 
+ArapucaWindowLat113 7.431 2.75 2.75
+ArapucaWindowLlat113 -7.431 2.75 7.5
+Checking overlaps for volume ArapucaWindowLat114 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat114 ... OK! 
+ArapucaWindowLat114 7.431 2.75 2.75
+ArapucaWindowLlat114 -7.431 2.75 10.5
+Checking overlaps for volume ArapucaWindowLat115 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat115 ... OK! 
+ArapucaWindowLat115 7.431 2.75 2.75
+ArapucaWindowLlat115 -7.431 2.75 13.5
+Checking overlaps for volume ArapucaWindowLat116 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat116 ... OK! 
+ArapucaWindowLat116 7.431 2.75 2.75
+ArapucaWindowLlat116 -7.431 2.75 16.5
+Checking overlaps for volume ArapucaWindowLat117 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat117 ... OK! 
+ArapucaWindowLat117 7.431 2.75 2.75
+ArapucaWindowLlat117 -7.431 2.75 19.5
+Checking overlaps for volume ArapucaWindowLat118 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat118 ... OK! 
+ArapucaWindowLat118 7.431 2.75 2.75
+ArapucaWindowLlat118 -7.431 2.75 22.5
+Checking overlaps for volume ArapucaWindowLat119 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat119 ... OK! 
+ArapucaWindowLat119 7.431 2.75 2.75
+ArapucaWindowLlat119 -7.431 2.75 25.5
+Checking overlaps for volume ArapucaWindowLat120 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat120 ... OK! 
+ArapucaWindowLat120 7.431 2.75 2.75
+ArapucaWindowLlat120 -7.431 2.75 28.5
+Checking overlaps for volume ArapucaWindowLat21 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat21 ... OK! 
+ArapucaWindowLat21 7.431 1.95 1.95
+ArapucaWindowLlat21 -7.431 1.95 -28.5
+Checking overlaps for volume ArapucaWindowLat22 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat22 ... OK! 
+ArapucaWindowLat22 7.431 1.95 1.95
+ArapucaWindowLlat22 -7.431 1.95 -25.5
+Checking overlaps for volume ArapucaWindowLat23 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat23 ... OK! 
+ArapucaWindowLat23 7.431 1.95 1.95
+ArapucaWindowLlat23 -7.431 1.95 -22.5
+Checking overlaps for volume ArapucaWindowLat24 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat24 ... OK! 
+ArapucaWindowLat24 7.431 1.95 1.95
+ArapucaWindowLlat24 -7.431 1.95 -19.5
+Checking overlaps for volume ArapucaWindowLat25 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat25 ... OK! 
+ArapucaWindowLat25 7.431 1.95 1.95
+ArapucaWindowLlat25 -7.431 1.95 -16.5
+Checking overlaps for volume ArapucaWindowLat26 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat26 ... OK! 
+ArapucaWindowLat26 7.431 1.95 1.95
+ArapucaWindowLlat26 -7.431 1.95 -13.5
+Checking overlaps for volume ArapucaWindowLat27 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat27 ... OK! 
+ArapucaWindowLat27 7.431 1.95 1.95
+ArapucaWindowLlat27 -7.431 1.95 -10.5
+Checking overlaps for volume ArapucaWindowLat28 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat28 ... OK! 
+ArapucaWindowLat28 7.431 1.95 1.95
+ArapucaWindowLlat28 -7.431 1.95 -7.5
+Checking overlaps for volume ArapucaWindowLat29 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat29 ... OK! 
+ArapucaWindowLat29 7.431 1.95 1.95
+ArapucaWindowLlat29 -7.431 1.95 -4.5
+Checking overlaps for volume ArapucaWindowLat210 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat210 ... OK! 
+ArapucaWindowLat210 7.431 1.95 1.95
+ArapucaWindowLlat210 -7.431 1.95 -1.5
+Checking overlaps for volume ArapucaWindowLat211 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat211 ... OK! 
+ArapucaWindowLat211 7.431 1.95 1.95
+ArapucaWindowLlat211 -7.431 1.95 1.5
+Checking overlaps for volume ArapucaWindowLat212 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat212 ... OK! 
+ArapucaWindowLat212 7.431 1.95 1.95
+ArapucaWindowLlat212 -7.431 1.95 4.5
+Checking overlaps for volume ArapucaWindowLat213 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat213 ... OK! 
+ArapucaWindowLat213 7.431 1.95 1.95
+ArapucaWindowLlat213 -7.431 1.95 7.5
+Checking overlaps for volume ArapucaWindowLat214 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat214 ... OK! 
+ArapucaWindowLat214 7.431 1.95 1.95
+ArapucaWindowLlat214 -7.431 1.95 10.5
+Checking overlaps for volume ArapucaWindowLat215 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat215 ... OK! 
+ArapucaWindowLat215 7.431 1.95 1.95
+ArapucaWindowLlat215 -7.431 1.95 13.5
+Checking overlaps for volume ArapucaWindowLat216 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat216 ... OK! 
+ArapucaWindowLat216 7.431 1.95 1.95
+ArapucaWindowLlat216 -7.431 1.95 16.5
+Checking overlaps for volume ArapucaWindowLat217 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat217 ... OK! 
+ArapucaWindowLat217 7.431 1.95 1.95
+ArapucaWindowLlat217 -7.431 1.95 19.5
+Checking overlaps for volume ArapucaWindowLat218 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat218 ... OK! 
+ArapucaWindowLat218 7.431 1.95 1.95
+ArapucaWindowLlat218 -7.431 1.95 22.5
+Checking overlaps for volume ArapucaWindowLat219 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat219 ... OK! 
+ArapucaWindowLat219 7.431 1.95 1.95
+ArapucaWindowLlat219 -7.431 1.95 25.5
+Checking overlaps for volume ArapucaWindowLat220 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat220 ... OK! 
+ArapucaWindowLat220 7.431 1.95 1.95
+ArapucaWindowLlat220 -7.431 1.95 28.5
+Checking overlaps for volume ArapucaWindowLat31 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat31 ... OK! 
+ArapucaWindowLat31 7.431 1.15 1.15
+ArapucaWindowLlat31 -7.431 1.15 -28.5
+Checking overlaps for volume ArapucaWindowLat32 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat32 ... OK! 
+ArapucaWindowLat32 7.431 1.15 1.15
+ArapucaWindowLlat32 -7.431 1.15 -25.5
+Checking overlaps for volume ArapucaWindowLat33 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat33 ... OK! 
+ArapucaWindowLat33 7.431 1.15 1.15
+ArapucaWindowLlat33 -7.431 1.15 -22.5
+Checking overlaps for volume ArapucaWindowLat34 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat34 ... OK! 
+ArapucaWindowLat34 7.431 1.15 1.15
+ArapucaWindowLlat34 -7.431 1.15 -19.5
+Checking overlaps for volume ArapucaWindowLat35 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat35 ... OK! 
+ArapucaWindowLat35 7.431 1.15 1.15
+ArapucaWindowLlat35 -7.431 1.15 -16.5
+Checking overlaps for volume ArapucaWindowLat36 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat36 ... OK! 
+ArapucaWindowLat36 7.431 1.15 1.15
+ArapucaWindowLlat36 -7.431 1.15 -13.5
+Checking overlaps for volume ArapucaWindowLat37 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat37 ... OK! 
+ArapucaWindowLat37 7.431 1.15 1.15
+ArapucaWindowLlat37 -7.431 1.15 -10.5
+Checking overlaps for volume ArapucaWindowLat38 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat38 ... OK! 
+ArapucaWindowLat38 7.431 1.15 1.15
+ArapucaWindowLlat38 -7.431 1.15 -7.5
+Checking overlaps for volume ArapucaWindowLat39 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat39 ... OK! 
+ArapucaWindowLat39 7.431 1.15 1.15
+ArapucaWindowLlat39 -7.431 1.15 -4.5
+Checking overlaps for volume ArapucaWindowLat310 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat310 ... OK! 
+ArapucaWindowLat310 7.431 1.15 1.15
+ArapucaWindowLlat310 -7.431 1.15 -1.5
+Checking overlaps for volume ArapucaWindowLat311 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat311 ... OK! 
+ArapucaWindowLat311 7.431 1.15 1.15
+ArapucaWindowLlat311 -7.431 1.15 1.5
+Checking overlaps for volume ArapucaWindowLat312 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat312 ... OK! 
+ArapucaWindowLat312 7.431 1.15 1.15
+ArapucaWindowLlat312 -7.431 1.15 4.5
+Checking overlaps for volume ArapucaWindowLat313 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat313 ... OK! 
+ArapucaWindowLat313 7.431 1.15 1.15
+ArapucaWindowLlat313 -7.431 1.15 7.5
+Checking overlaps for volume ArapucaWindowLat314 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat314 ... OK! 
+ArapucaWindowLat314 7.431 1.15 1.15
+ArapucaWindowLlat314 -7.431 1.15 10.5
+Checking overlaps for volume ArapucaWindowLat315 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat315 ... OK! 
+ArapucaWindowLat315 7.431 1.15 1.15
+ArapucaWindowLlat315 -7.431 1.15 13.5
+Checking overlaps for volume ArapucaWindowLat316 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat316 ... OK! 
+ArapucaWindowLat316 7.431 1.15 1.15
+ArapucaWindowLlat316 -7.431 1.15 16.5
+Checking overlaps for volume ArapucaWindowLat317 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat317 ... OK! 
+ArapucaWindowLat317 7.431 1.15 1.15
+ArapucaWindowLlat317 -7.431 1.15 19.5
+Checking overlaps for volume ArapucaWindowLat318 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat318 ... OK! 
+ArapucaWindowLat318 7.431 1.15 1.15
+ArapucaWindowLlat318 -7.431 1.15 22.5
+Checking overlaps for volume ArapucaWindowLat319 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat319 ... OK! 
+ArapucaWindowLat319 7.431 1.15 1.15
+ArapucaWindowLlat319 -7.431 1.15 25.5
+Checking overlaps for volume ArapucaWindowLat320 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat320 ... OK! 
+ArapucaWindowLat320 7.431 1.15 1.15
+ArapucaWindowLlat320 -7.431 1.15 28.5
+Checking overlaps for volume ArapucaWindowLat41 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat41 ... OK! 
+ArapucaWindowLat41 7.431 0.35 0.35
+ArapucaWindowLlat41 -7.431 0.35 -28.5
+Checking overlaps for volume ArapucaWindowLat42 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat42 ... OK! 
+ArapucaWindowLat42 7.431 0.35 0.35
+ArapucaWindowLlat42 -7.431 0.35 -25.5
+Checking overlaps for volume ArapucaWindowLat43 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat43 ... OK! 
+ArapucaWindowLat43 7.431 0.35 0.35
+ArapucaWindowLlat43 -7.431 0.35 -22.5
+Checking overlaps for volume ArapucaWindowLat44 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat44 ... OK! 
+ArapucaWindowLat44 7.431 0.35 0.35
+ArapucaWindowLlat44 -7.431 0.35 -19.5
+Checking overlaps for volume ArapucaWindowLat45 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat45 ... OK! 
+ArapucaWindowLat45 7.431 0.35 0.35
+ArapucaWindowLlat45 -7.431 0.35 -16.5
+Checking overlaps for volume ArapucaWindowLat46 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat46 ... OK! 
+ArapucaWindowLat46 7.431 0.35 0.35
+ArapucaWindowLlat46 -7.431 0.35 -13.5
+Checking overlaps for volume ArapucaWindowLat47 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat47 ... OK! 
+ArapucaWindowLat47 7.431 0.35 0.35
+ArapucaWindowLlat47 -7.431 0.35 -10.5
+Checking overlaps for volume ArapucaWindowLat48 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat48 ... OK! 
+ArapucaWindowLat48 7.431 0.35 0.35
+ArapucaWindowLlat48 -7.431 0.35 -7.5
+Checking overlaps for volume ArapucaWindowLat49 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat49 ... OK! 
+ArapucaWindowLat49 7.431 0.35 0.35
+ArapucaWindowLlat49 -7.431 0.35 -4.5
+Checking overlaps for volume ArapucaWindowLat410 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat410 ... OK! 
+ArapucaWindowLat410 7.431 0.35 0.35
+ArapucaWindowLlat410 -7.431 0.35 -1.5
+Checking overlaps for volume ArapucaWindowLat411 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat411 ... OK! 
+ArapucaWindowLat411 7.431 0.35 0.35
+ArapucaWindowLlat411 -7.431 0.35 1.5
+Checking overlaps for volume ArapucaWindowLat412 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat412 ... OK! 
+ArapucaWindowLat412 7.431 0.35 0.35
+ArapucaWindowLlat412 -7.431 0.35 4.5
+Checking overlaps for volume ArapucaWindowLat413 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat413 ... OK! 
+ArapucaWindowLat413 7.431 0.35 0.35
+ArapucaWindowLlat413 -7.431 0.35 7.5
+Checking overlaps for volume ArapucaWindowLat414 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat414 ... OK! 
+ArapucaWindowLat414 7.431 0.35 0.35
+ArapucaWindowLlat414 -7.431 0.35 10.5
+Checking overlaps for volume ArapucaWindowLat415 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat415 ... OK! 
+ArapucaWindowLat415 7.431 0.35 0.35
+ArapucaWindowLlat415 -7.431 0.35 13.5
+Checking overlaps for volume ArapucaWindowLat416 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat416 ... OK! 
+ArapucaWindowLat416 7.431 0.35 0.35
+ArapucaWindowLlat416 -7.431 0.35 16.5
+Checking overlaps for volume ArapucaWindowLat417 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat417 ... OK! 
+ArapucaWindowLat417 7.431 0.35 0.35
+ArapucaWindowLlat417 -7.431 0.35 19.5
+Checking overlaps for volume ArapucaWindowLat418 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat418 ... OK! 
+ArapucaWindowLat418 7.431 0.35 0.35
+ArapucaWindowLlat418 -7.431 0.35 22.5
+Checking overlaps for volume ArapucaWindowLat419 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat419 ... OK! 
+ArapucaWindowLat419 7.431 0.35 0.35
+ArapucaWindowLlat419 -7.431 0.35 25.5
+Checking overlaps for volume ArapucaWindowLat420 ... OK! 
+Checking overlaps for volume ArapucaWindowLlat420 ... OK! 
+ArapucaWindowLat420 7.431 0.35 0.35
+ArapucaWindowLlat420 -7.431 0.35 28.5
+Checking overlaps for volume ArapucaBot11 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot11
+          with FieldCageShort volume's
+          local point (-0.801336,-15,-4476.78), overlapping by at least: 301.336 um 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaBot12 ... OK! 
+Checking overlaps for volume ArapucaBot13 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot13
+          with FieldCageShort volume's
+          local point (-2.47999,-15,2431), overlapping by at least: 1.26708 mm 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaBot14 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot14
+          with FieldCageShort volume's
+          local point (-1.73881,-15,5450.6), overlapping by at least: 1.23881 mm 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaBot15 ... OK! 
+Checking overlaps for volume ArapucaBot16 ... OK! 
+Checking overlaps for volume ArapucaBot17 ... OK! 
+Checking overlaps for volume ArapucaBot18 ... OK! 
+Checking overlaps for volume ArapucaBot21 ... OK! 
+Checking overlaps for volume ArapucaBot22 ... OK! 
+Checking overlaps for volume ArapucaBot23 ... OK! 
+Checking overlaps for volume ArapucaBot24 ... OK! 
+Checking overlaps for volume ArapucaBot25 ... OK! 
+Checking overlaps for volume ArapucaBot26 ... OK! 
+Checking overlaps for volume ArapucaBot27 ... OK! 
+Checking overlaps for volume ArapucaBot28 ... OK! 
+Checking overlaps for volume ArapucaBot31 ... OK! 
+Checking overlaps for volume ArapucaBot32 ... OK! 
+Checking overlaps for volume ArapucaBot33 ... OK! 
+Checking overlaps for volume ArapucaBot34 ... OK! 
+Checking overlaps for volume ArapucaBot35 ... OK! 
+Checking overlaps for volume ArapucaBot36 ... OK! 
+Checking overlaps for volume ArapucaBot37 ... OK! 
+Checking overlaps for volume ArapucaBot38 ... OK! 
+Checking overlaps for volume ArapucaBot41 ... OK! 
+Checking overlaps for volume ArapucaBot42 ... OK! 
+Checking overlaps for volume ArapucaBot43 ... OK! 
+Checking overlaps for volume ArapucaBot44 ... OK! 
+Checking overlaps for volume ArapucaBot45 ... OK! 
+Checking overlaps for volume ArapucaBot46 ... OK! 
+Checking overlaps for volume ArapucaBot47 ... OK! 
+Checking overlaps for volume ArapucaBot48 ... OK! 
+Checking overlaps for volume ArapucaBot51 ... OK! 
+Checking overlaps for volume ArapucaBot52 ... OK! 
+Checking overlaps for volume ArapucaBot53 ... OK! 
+Checking overlaps for volume ArapucaBot54 ... OK! 
+Checking overlaps for volume ArapucaBot55 ... OK! 
+Checking overlaps for volume ArapucaBot56 ... OK! 
+Checking overlaps for volume ArapucaBot57 ... OK! 
+Checking overlaps for volume ArapucaBot58 ... OK! 
+Checking overlaps for volume ArapucaBot61 ... OK! 
+Checking overlaps for volume ArapucaBot62 ... OK! 
+Checking overlaps for volume ArapucaBot63 ... OK! 
+Checking overlaps for volume ArapucaBot64 ... OK! 
+Checking overlaps for volume ArapucaBot65 ... OK! 
+Checking overlaps for volume ArapucaBot66 ... OK! 
+Checking overlaps for volume ArapucaBot67 ... OK! 
+Checking overlaps for volume ArapucaBot68 ... OK! 
+Checking overlaps for volume ArapucaBot71 ... OK! 
+Checking overlaps for volume ArapucaBot72 ... OK! 
+Checking overlaps for volume ArapucaBot73 ... OK! 
+Checking overlaps for volume ArapucaBot74 ... OK! 
+Checking overlaps for volume ArapucaBot75 ... OK! 
+Checking overlaps for volume ArapucaBot76 ... OK! 
+Checking overlaps for volume ArapucaBot77 ... OK! 
+Checking overlaps for volume ArapucaBot78 ... OK! 
+Checking overlaps for volume ArapucaBot81 ... OK! 
+Checking overlaps for volume ArapucaBot82 ... OK! 
+Checking overlaps for volume ArapucaBot83 ... OK! 
+Checking overlaps for volume ArapucaBot84 ... OK! 
+Checking overlaps for volume ArapucaBot85 ... OK! 
+Checking overlaps for volume ArapucaBot86 ... OK! 
+Checking overlaps for volume ArapucaBot87 ... OK! 
+Checking overlaps for volume ArapucaBot88 ... OK! 
+Checking overlaps for volume ArapucaBot91 ... OK! 
+Checking overlaps for volume ArapucaBot92 ... OK! 
+Checking overlaps for volume ArapucaBot93 ... OK! 
+Checking overlaps for volume ArapucaBot94 ... OK! 
+Checking overlaps for volume ArapucaBot95 ... OK! 
+Checking overlaps for volume ArapucaBot96 ... OK! 
+Checking overlaps for volume ArapucaBot97 ... OK! 
+Checking overlaps for volume ArapucaBot98 ... OK! 
+Checking overlaps for volume ArapucaBot101 ... OK! 
+Checking overlaps for volume ArapucaBot102 ... OK! 
+Checking overlaps for volume ArapucaBot103 ... OK! 
+Checking overlaps for volume ArapucaBot104 ... OK! 
+Checking overlaps for volume ArapucaBot105 ... OK! 
+Checking overlaps for volume ArapucaBot106 ... OK! 
+Checking overlaps for volume ArapucaBot107 ... OK! 
+Checking overlaps for volume ArapucaBot108 ... OK! 
+Checking overlaps for volume ArapucaBot111 ... OK! 
+Checking overlaps for volume ArapucaBot112 ... OK! 
+Checking overlaps for volume ArapucaBot113 ... OK! 
+Checking overlaps for volume ArapucaBot114 ... OK! 
+Checking overlaps for volume ArapucaBot115 ... OK! 
+Checking overlaps for volume ArapucaBot116 ... OK! 
+Checking overlaps for volume ArapucaBot117 ... OK! 
+Checking overlaps for volume ArapucaBot118 ... OK! 
+Checking overlaps for volume ArapucaBot121 ... OK! 
+Checking overlaps for volume ArapucaBot122 ... OK! 
+Checking overlaps for volume ArapucaBot123 ... OK! 
+Checking overlaps for volume ArapucaBot124 ... OK! 
+Checking overlaps for volume ArapucaBot125 ... OK! 
+Checking overlaps for volume ArapucaBot126 ... OK! 
+Checking overlaps for volume ArapucaBot127 ... OK! 
+Checking overlaps for volume ArapucaBot128 ... OK! 
+Checking overlaps for volume ArapucaBot131 ... OK! 
+Checking overlaps for volume ArapucaBot132 ... OK! 
+Checking overlaps for volume ArapucaBot133 ... OK! 
+Checking overlaps for volume ArapucaBot134 ... OK! 
+Checking overlaps for volume ArapucaBot135 ... OK! 
+Checking overlaps for volume ArapucaBot136 ... OK! 
+Checking overlaps for volume ArapucaBot137 ... OK! 
+Checking overlaps for volume ArapucaBot138 ... OK! 
+Checking overlaps for volume ArapucaBot141 ... OK! 
+Checking overlaps for volume ArapucaBot142 ... OK! 
+Checking overlaps for volume ArapucaBot143 ... OK! 
+Checking overlaps for volume ArapucaBot144 ... OK! 
+Checking overlaps for volume ArapucaBot145 ... OK! 
+Checking overlaps for volume ArapucaBot146 ... OK! 
+Checking overlaps for volume ArapucaBot147 ... OK! 
+Checking overlaps for volume ArapucaBot148 ... OK! 
+Checking overlaps for volume ArapucaBot151 ... OK! 
+Checking overlaps for volume ArapucaBot152 ... OK! 
+Checking overlaps for volume ArapucaBot153 ... OK! 
+Checking overlaps for volume ArapucaBot154 ... OK! 
+Checking overlaps for volume ArapucaBot155 ... OK! 
+Checking overlaps for volume ArapucaBot156 ... OK! 
+Checking overlaps for volume ArapucaBot157 ... OK! 
+Checking overlaps for volume ArapucaBot158 ... OK! 
+Checking overlaps for volume ArapucaBot161 ... OK! 
+Checking overlaps for volume ArapucaBot162 ... OK! 
+Checking overlaps for volume ArapucaBot163 ... OK! 
+Checking overlaps for volume ArapucaBot164 ... OK! 
+Checking overlaps for volume ArapucaBot165 ... OK! 
+Checking overlaps for volume ArapucaBot166 ... OK! 
+Checking overlaps for volume ArapucaBot167 ... OK! 
+Checking overlaps for volume ArapucaBot168 ... OK! 
+Checking overlaps for volume ArapucaBot171 ... OK! 
+Checking overlaps for volume ArapucaBot172 ... OK! 
+Checking overlaps for volume ArapucaBot173 ... OK! 
+Checking overlaps for volume ArapucaBot174 ... OK! 
+Checking overlaps for volume ArapucaBot175 ... OK! 
+Checking overlaps for volume ArapucaBot176 ... OK! 
+Checking overlaps for volume ArapucaBot177 ... OK! 
+Checking overlaps for volume ArapucaBot178 ... OK! 
+Checking overlaps for volume ArapucaBot181 ... OK! 
+Checking overlaps for volume ArapucaBot182 ... OK! 
+Checking overlaps for volume ArapucaBot183 ... OK! 
+Checking overlaps for volume ArapucaBot184 ... OK! 
+Checking overlaps for volume ArapucaBot185 ... OK! 
+Checking overlaps for volume ArapucaBot186 ... OK! 
+Checking overlaps for volume ArapucaBot187 ... OK! 
+Checking overlaps for volume ArapucaBot188 ... OK! 
+Checking overlaps for volume ArapucaBot191 ... OK! 
+Checking overlaps for volume ArapucaBot192 ... OK! 
+Checking overlaps for volume ArapucaBot193 ... OK! 
+Checking overlaps for volume ArapucaBot194 ... OK! 
+Checking overlaps for volume ArapucaBot195 ... OK! 
+Checking overlaps for volume ArapucaBot196 ... OK! 
+Checking overlaps for volume ArapucaBot197 ... OK! 
+Checking overlaps for volume ArapucaBot198 ... OK! 
+Checking overlaps for volume ArapucaBot201 ... OK! 
+Checking overlaps for volume ArapucaBot202 ... OK! 
+Checking overlaps for volume ArapucaBot203 ... OK! 
+Checking overlaps for volume ArapucaBot204 ... OK! 
+Checking overlaps for volume ArapucaBot205 ... OK! 
+Checking overlaps for volume ArapucaBot206 ... OK! 
+Checking overlaps for volume ArapucaBot207 ... OK! 
+Checking overlaps for volume ArapucaBot208 ... OK! 
+Checking overlaps for volume ArapucaBot211 ... OK! 
+Checking overlaps for volume ArapucaBot212 ... OK! 
+Checking overlaps for volume ArapucaBot213 ... OK! 
+Checking overlaps for volume ArapucaBot214 ... OK! 
+Checking overlaps for volume ArapucaBot215 ... OK! 
+Checking overlaps for volume ArapucaBot216 ... OK! 
+Checking overlaps for volume ArapucaBot217 ... OK! 
+Checking overlaps for volume ArapucaBot218 ... OK! 
+Checking overlaps for volume ArapucaBot221 ... OK! 
+Checking overlaps for volume ArapucaBot222 ... OK! 
+Checking overlaps for volume ArapucaBot223 ... OK! 
+Checking overlaps for volume ArapucaBot224 ... OK! 
+Checking overlaps for volume ArapucaBot225 ... OK! 
+Checking overlaps for volume ArapucaBot226 ... OK! 
+Checking overlaps for volume ArapucaBot227 ... OK! 
+Checking overlaps for volume ArapucaBot228 ... OK! 
+Checking overlaps for volume ArapucaBot231 ... OK! 
+Checking overlaps for volume ArapucaBot232 ... OK! 
+Checking overlaps for volume ArapucaBot233 ... OK! 
+Checking overlaps for volume ArapucaBot234 ... OK! 
+Checking overlaps for volume ArapucaBot235 ... OK! 
+Checking overlaps for volume ArapucaBot236 ... OK! 
+Checking overlaps for volume ArapucaBot237 ... OK! 
+Checking overlaps for volume ArapucaBot238 ... OK! 
+Checking overlaps for volume ArapucaBot241 ... OK! 
+Checking overlaps for volume ArapucaBot242 ... OK! 
+Checking overlaps for volume ArapucaBot243 ... OK! 
+Checking overlaps for volume ArapucaBot244 ... OK! 
+Checking overlaps for volume ArapucaBot245 ... OK! 
+Checking overlaps for volume ArapucaBot246 ... OK! 
+Checking overlaps for volume ArapucaBot247 ... OK! 
+Checking overlaps for volume ArapucaBot248 ... OK! 
+Checking overlaps for volume ArapucaBot251 ... OK! 
+Checking overlaps for volume ArapucaBot252 ... OK! 
+Checking overlaps for volume ArapucaBot253 ... OK! 
+Checking overlaps for volume ArapucaBot254 ... OK! 
+Checking overlaps for volume ArapucaBot255 ... OK! 
+Checking overlaps for volume ArapucaBot256 ... OK! 
+Checking overlaps for volume ArapucaBot257 ... OK! 
+Checking overlaps for volume ArapucaBot258 ... OK! 
+Checking overlaps for volume ArapucaBot261 ... OK! 
+Checking overlaps for volume ArapucaBot262 ... OK! 
+Checking overlaps for volume ArapucaBot263 ... OK! 
+Checking overlaps for volume ArapucaBot264 ... OK! 
+Checking overlaps for volume ArapucaBot265 ... OK! 
+Checking overlaps for volume ArapucaBot266 ... OK! 
+Checking overlaps for volume ArapucaBot267 ... OK! 
+Checking overlaps for volume ArapucaBot268 ... OK! 
+Checking overlaps for volume ArapucaBot271 ... OK! 
+Checking overlaps for volume ArapucaBot272 ... OK! 
+Checking overlaps for volume ArapucaBot273 ... OK! 
+Checking overlaps for volume ArapucaBot274 ... OK! 
+Checking overlaps for volume ArapucaBot275 ... OK! 
+Checking overlaps for volume ArapucaBot276 ... OK! 
+Checking overlaps for volume ArapucaBot277 ... OK! 
+Checking overlaps for volume ArapucaBot278 ... OK! 
+Checking overlaps for volume ArapucaBot281 ... OK! 
+Checking overlaps for volume ArapucaBot282 ... OK! 
+Checking overlaps for volume ArapucaBot283 ... OK! 
+Checking overlaps for volume ArapucaBot284 ... OK! 
+Checking overlaps for volume ArapucaBot285 ... OK! 
+Checking overlaps for volume ArapucaBot286 ... OK! 
+Checking overlaps for volume ArapucaBot287 ... OK! 
+Checking overlaps for volume ArapucaBot288 ... OK! 
+Checking overlaps for volume ArapucaBot291 ... OK! 
+Checking overlaps for volume ArapucaBot292 ... OK! 
+Checking overlaps for volume ArapucaBot293 ... OK! 
+Checking overlaps for volume ArapucaBot294 ... OK! 
+Checking overlaps for volume ArapucaBot295 ... OK! 
+Checking overlaps for volume ArapucaBot296 ... OK! 
+Checking overlaps for volume ArapucaBot297 ... OK! 
+Checking overlaps for volume ArapucaBot298 ... OK! 
+Checking overlaps for volume ArapucaBot301 ... OK! 
+Checking overlaps for volume ArapucaBot302 ... OK! 
+Checking overlaps for volume ArapucaBot303 ... OK! 
+Checking overlaps for volume ArapucaBot304 ... OK! 
+Checking overlaps for volume ArapucaBot305 ... OK! 
+Checking overlaps for volume ArapucaBot306 ... OK! 
+Checking overlaps for volume ArapucaBot307 ... OK! 
+Checking overlaps for volume ArapucaBot308 ... OK! 
+Checking overlaps for volume ArapucaBot311 ... OK! 
+Checking overlaps for volume ArapucaBot312 ... OK! 
+Checking overlaps for volume ArapucaBot313 ... OK! 
+Checking overlaps for volume ArapucaBot314 ... OK! 
+Checking overlaps for volume ArapucaBot315 ... OK! 
+Checking overlaps for volume ArapucaBot316 ... OK! 
+Checking overlaps for volume ArapucaBot317 ... OK! 
+Checking overlaps for volume ArapucaBot318 ... OK! 
+Checking overlaps for volume ArapucaBot321 ... OK! 
+Checking overlaps for volume ArapucaBot322 ... OK! 
+Checking overlaps for volume ArapucaBot323 ... OK! 
+Checking overlaps for volume ArapucaBot324 ... OK! 
+Checking overlaps for volume ArapucaBot325 ... OK! 
+Checking overlaps for volume ArapucaBot326 ... OK! 
+Checking overlaps for volume ArapucaBot327 ... OK! 
+Checking overlaps for volume ArapucaBot328 ... OK! 
+Checking overlaps for volume ArapucaBot331 ... OK! 
+Checking overlaps for volume ArapucaBot332 ... OK! 
+Checking overlaps for volume ArapucaBot333 ... OK! 
+Checking overlaps for volume ArapucaBot334 ... OK! 
+Checking overlaps for volume ArapucaBot335 ... OK! 
+Checking overlaps for volume ArapucaBot336 ... OK! 
+Checking overlaps for volume ArapucaBot337 ... OK! 
+Checking overlaps for volume ArapucaBot338 ... OK! 
+Checking overlaps for volume ArapucaBot341 ... OK! 
+Checking overlaps for volume ArapucaBot342 ... OK! 
+Checking overlaps for volume ArapucaBot343 ... OK! 
+Checking overlaps for volume ArapucaBot344 ... OK! 
+Checking overlaps for volume ArapucaBot345 ... OK! 
+Checking overlaps for volume ArapucaBot346 ... OK! 
+Checking overlaps for volume ArapucaBot347 ... OK! 
+Checking overlaps for volume ArapucaBot348 ... OK! 
+Checking overlaps for volume ArapucaBot351 ... OK! 
+Checking overlaps for volume ArapucaBot352 ... OK! 
+Checking overlaps for volume ArapucaBot353 ... OK! 
+Checking overlaps for volume ArapucaBot354 ... OK! 
+Checking overlaps for volume ArapucaBot355 ... OK! 
+Checking overlaps for volume ArapucaBot356 ... OK! 
+Checking overlaps for volume ArapucaBot357 ... OK! 
+Checking overlaps for volume ArapucaBot358 ... OK! 
+Checking overlaps for volume ArapucaBot361 ... OK! 
+Checking overlaps for volume ArapucaBot362 ... OK! 
+Checking overlaps for volume ArapucaBot363 ... OK! 
+Checking overlaps for volume ArapucaBot364 ... OK! 
+Checking overlaps for volume ArapucaBot365 ... OK! 
+Checking overlaps for volume ArapucaBot366 ... OK! 
+Checking overlaps for volume ArapucaBot367 ... OK! 
+Checking overlaps for volume ArapucaBot368 ... OK! 
+Checking overlaps for volume ArapucaBot371 ... OK! 
+Checking overlaps for volume ArapucaBot372 ... OK! 
+Checking overlaps for volume ArapucaBot373 ... OK! 
+Checking overlaps for volume ArapucaBot374 ... OK! 
+Checking overlaps for volume ArapucaBot375 ... OK! 
+Checking overlaps for volume ArapucaBot376 ... OK! 
+Checking overlaps for volume ArapucaBot377 ... OK! 
+Checking overlaps for volume ArapucaBot378 ... OK! 
+Checking overlaps for volume ArapucaBot381 ... OK! 
+Checking overlaps for volume ArapucaBot382 ... OK! 
+Checking overlaps for volume ArapucaBot383 ... OK! 
+Checking overlaps for volume ArapucaBot384 ... OK! 
+Checking overlaps for volume ArapucaBot385 ... OK! 
+Checking overlaps for volume ArapucaBot386 ... OK! 
+Checking overlaps for volume ArapucaBot387 ... OK! 
+Checking overlaps for volume ArapucaBot388 ... OK! 
+Checking overlaps for volume ArapucaBot391 ... OK! 
+Checking overlaps for volume ArapucaBot392 ... OK! 
+Checking overlaps for volume ArapucaBot393 ... OK! 
+Checking overlaps for volume ArapucaBot394 ... OK! 
+Checking overlaps for volume ArapucaBot395 ... OK! 
+Checking overlaps for volume ArapucaBot396 ... OK! 
+Checking overlaps for volume ArapucaBot397 ... OK! 
+Checking overlaps for volume ArapucaBot398 ... OK! 
+Checking overlaps for volume ArapucaBot401 ... OK! 
+Checking overlaps for volume ArapucaBot402 ... OK! 
+Checking overlaps for volume ArapucaBot403 ... OK! 
+Checking overlaps for volume ArapucaBot404 ... OK! 
+Checking overlaps for volume ArapucaBot405 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot405
+          with FieldCageShort volume's
+          local point (-3.62883,-15,5603.34), overlapping by at least: 158.489 um 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaBot406 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot406
+          with FieldCageShort volume's
+          local point (-1.04018,-15,2394.35), overlapping by at least: 540.181 um 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaBot407 ... OK! 
+Checking overlaps for volume ArapucaBot408 ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume ArapucaBot408
+          with FieldCageShort volume's
+          local point (-0.751424,-15,-4607.33), overlapping by at least: 251.424 um 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume ArapucaWindowBot11 ... OK! 
+ArapucaWindowBot11 -4.64062 -3.231 -29.625
+Checking overlaps for volume ArapucaWindowBot12 ... OK! 
+ArapucaWindowBot12 -1.26562 -3.231 -29.625
+Checking overlaps for volume ArapucaWindowBot13 ... OK! 
+ArapucaWindowBot13 2.10938 -3.231 -29.625
+Checking overlaps for volume ArapucaWindowBot14 ... OK! 
+ArapucaWindowBot14 5.48438 -3.231 -29.625
+Checking overlaps for volume ArapucaWindowBot15 ... OK! 
+ArapucaWindowBot15 -6.32812 -3.231 -28.875
+Checking overlaps for volume ArapucaWindowBot16 ... OK! 
+ArapucaWindowBot16 -2.95312 -3.231 -28.875
+Checking overlaps for volume ArapucaWindowBot17 ... OK! 
+ArapucaWindowBot17 0.421875 -3.231 -28.875
+Checking overlaps for volume ArapucaWindowBot18 ... OK! 
+ArapucaWindowBot18 3.79688 -3.231 -28.875
+Checking overlaps for volume ArapucaWindowBot21 ... OK! 
+ArapucaWindowBot21 -3.79688 -3.231 -28.125
+Checking overlaps for volume ArapucaWindowBot22 ... OK! 
+ArapucaWindowBot22 -0.421875 -3.231 -28.125
+Checking overlaps for volume ArapucaWindowBot23 ... OK! 
+ArapucaWindowBot23 2.95312 -3.231 -28.125
+Checking overlaps for volume ArapucaWindowBot24 ... OK! 
+ArapucaWindowBot24 6.32812 -3.231 -28.125
+Checking overlaps for volume ArapucaWindowBot25 ... OK! 
+ArapucaWindowBot25 -5.48438 -3.231 -27.375
+Checking overlaps for volume ArapucaWindowBot26 ... OK! 
+ArapucaWindowBot26 -2.10938 -3.231 -27.375
+Checking overlaps for volume ArapucaWindowBot27 ... OK! 
+ArapucaWindowBot27 1.26562 -3.231 -27.375
+Checking overlaps for volume ArapucaWindowBot28 ... OK! 
+ArapucaWindowBot28 4.64062 -3.231 -27.375
+Checking overlaps for volume ArapucaWindowBot31 ... OK! 
+ArapucaWindowBot31 -4.64062 -3.231 -26.625
+Checking overlaps for volume ArapucaWindowBot32 ... OK! 
+ArapucaWindowBot32 -1.26562 -3.231 -26.625
+Checking overlaps for volume ArapucaWindowBot33 ... OK! 
+ArapucaWindowBot33 2.10938 -3.231 -26.625
+Checking overlaps for volume ArapucaWindowBot34 ... OK! 
+ArapucaWindowBot34 5.48438 -3.231 -26.625
+Checking overlaps for volume ArapucaWindowBot35 ... OK! 
+ArapucaWindowBot35 -6.32812 -3.231 -25.875
+Checking overlaps for volume ArapucaWindowBot36 ... OK! 
+ArapucaWindowBot36 -2.95312 -3.231 -25.875
+Checking overlaps for volume ArapucaWindowBot37 ... OK! 
+ArapucaWindowBot37 0.421875 -3.231 -25.875
+Checking overlaps for volume ArapucaWindowBot38 ... OK! 
+ArapucaWindowBot38 3.79688 -3.231 -25.875
+Checking overlaps for volume ArapucaWindowBot41 ... OK! 
+ArapucaWindowBot41 -3.79688 -3.231 -25.125
+Checking overlaps for volume ArapucaWindowBot42 ... OK! 
+ArapucaWindowBot42 -0.421875 -3.231 -25.125
+Checking overlaps for volume ArapucaWindowBot43 ... OK! 
+ArapucaWindowBot43 2.95312 -3.231 -25.125
+Checking overlaps for volume ArapucaWindowBot44 ... OK! 
+ArapucaWindowBot44 6.32812 -3.231 -25.125
+Checking overlaps for volume ArapucaWindowBot45 ... OK! 
+ArapucaWindowBot45 -5.48438 -3.231 -24.375
+Checking overlaps for volume ArapucaWindowBot46 ... OK! 
+ArapucaWindowBot46 -2.10938 -3.231 -24.375
+Checking overlaps for volume ArapucaWindowBot47 ... OK! 
+ArapucaWindowBot47 1.26562 -3.231 -24.375
+Checking overlaps for volume ArapucaWindowBot48 ... OK! 
+ArapucaWindowBot48 4.64062 -3.231 -24.375
+Checking overlaps for volume ArapucaWindowBot51 ... OK! 
+ArapucaWindowBot51 -4.64062 -3.231 -23.625
+Checking overlaps for volume ArapucaWindowBot52 ... OK! 
+ArapucaWindowBot52 -1.26562 -3.231 -23.625
+Checking overlaps for volume ArapucaWindowBot53 ... OK! 
+ArapucaWindowBot53 2.10938 -3.231 -23.625
+Checking overlaps for volume ArapucaWindowBot54 ... OK! 
+ArapucaWindowBot54 5.48438 -3.231 -23.625
+Checking overlaps for volume ArapucaWindowBot55 ... OK! 
+ArapucaWindowBot55 -6.32812 -3.231 -22.875
+Checking overlaps for volume ArapucaWindowBot56 ... OK! 
+ArapucaWindowBot56 -2.95312 -3.231 -22.875
+Checking overlaps for volume ArapucaWindowBot57 ... OK! 
+ArapucaWindowBot57 0.421875 -3.231 -22.875
+Checking overlaps for volume ArapucaWindowBot58 ... OK! 
+ArapucaWindowBot58 3.79688 -3.231 -22.875
+Checking overlaps for volume ArapucaWindowBot61 ... OK! 
+ArapucaWindowBot61 -3.79688 -3.231 -22.125
+Checking overlaps for volume ArapucaWindowBot62 ... OK! 
+ArapucaWindowBot62 -0.421875 -3.231 -22.125
+Checking overlaps for volume ArapucaWindowBot63 ... OK! 
+ArapucaWindowBot63 2.95312 -3.231 -22.125
+Checking overlaps for volume ArapucaWindowBot64 ... OK! 
+ArapucaWindowBot64 6.32812 -3.231 -22.125
+Checking overlaps for volume ArapucaWindowBot65 ... OK! 
+ArapucaWindowBot65 -5.48438 -3.231 -21.375
+Checking overlaps for volume ArapucaWindowBot66 ... OK! 
+ArapucaWindowBot66 -2.10938 -3.231 -21.375
+Checking overlaps for volume ArapucaWindowBot67 ... OK! 
+ArapucaWindowBot67 1.26562 -3.231 -21.375
+Checking overlaps for volume ArapucaWindowBot68 ... OK! 
+ArapucaWindowBot68 4.64062 -3.231 -21.375
+Checking overlaps for volume ArapucaWindowBot71 ... OK! 
+ArapucaWindowBot71 -4.64062 -3.231 -20.625
+Checking overlaps for volume ArapucaWindowBot72 ... OK! 
+ArapucaWindowBot72 -1.26562 -3.231 -20.625
+Checking overlaps for volume ArapucaWindowBot73 ... OK! 
+ArapucaWindowBot73 2.10938 -3.231 -20.625
+Checking overlaps for volume ArapucaWindowBot74 ... OK! 
+ArapucaWindowBot74 5.48438 -3.231 -20.625
+Checking overlaps for volume ArapucaWindowBot75 ... OK! 
+ArapucaWindowBot75 -6.32812 -3.231 -19.875
+Checking overlaps for volume ArapucaWindowBot76 ... OK! 
+ArapucaWindowBot76 -2.95312 -3.231 -19.875
+Checking overlaps for volume ArapucaWindowBot77 ... OK! 
+ArapucaWindowBot77 0.421875 -3.231 -19.875
+Checking overlaps for volume ArapucaWindowBot78 ... OK! 
+ArapucaWindowBot78 3.79688 -3.231 -19.875
+Checking overlaps for volume ArapucaWindowBot81 ... OK! 
+ArapucaWindowBot81 -3.79688 -3.231 -19.125
+Checking overlaps for volume ArapucaWindowBot82 ... OK! 
+ArapucaWindowBot82 -0.421875 -3.231 -19.125
+Checking overlaps for volume ArapucaWindowBot83 ... OK! 
+ArapucaWindowBot83 2.95312 -3.231 -19.125
+Checking overlaps for volume ArapucaWindowBot84 ... OK! 
+ArapucaWindowBot84 6.32812 -3.231 -19.125
+Checking overlaps for volume ArapucaWindowBot85 ... OK! 
+ArapucaWindowBot85 -5.48438 -3.231 -18.375
+Checking overlaps for volume ArapucaWindowBot86 ... OK! 
+ArapucaWindowBot86 -2.10938 -3.231 -18.375
+Checking overlaps for volume ArapucaWindowBot87 ... OK! 
+ArapucaWindowBot87 1.26562 -3.231 -18.375
+Checking overlaps for volume ArapucaWindowBot88 ... OK! 
+ArapucaWindowBot88 4.64062 -3.231 -18.375
+Checking overlaps for volume ArapucaWindowBot91 ... OK! 
+ArapucaWindowBot91 -4.64062 -3.231 -17.625
+Checking overlaps for volume ArapucaWindowBot92 ... OK! 
+ArapucaWindowBot92 -1.26562 -3.231 -17.625
+Checking overlaps for volume ArapucaWindowBot93 ... OK! 
+ArapucaWindowBot93 2.10938 -3.231 -17.625
+Checking overlaps for volume ArapucaWindowBot94 ... OK! 
+ArapucaWindowBot94 5.48438 -3.231 -17.625
+Checking overlaps for volume ArapucaWindowBot95 ... OK! 
+ArapucaWindowBot95 -6.32812 -3.231 -16.875
+Checking overlaps for volume ArapucaWindowBot96 ... OK! 
+ArapucaWindowBot96 -2.95312 -3.231 -16.875
+Checking overlaps for volume ArapucaWindowBot97 ... OK! 
+ArapucaWindowBot97 0.421875 -3.231 -16.875
+Checking overlaps for volume ArapucaWindowBot98 ... OK! 
+ArapucaWindowBot98 3.79688 -3.231 -16.875
+Checking overlaps for volume ArapucaWindowBot101 ... OK! 
+ArapucaWindowBot101 -3.79688 -3.231 -16.125
+Checking overlaps for volume ArapucaWindowBot102 ... OK! 
+ArapucaWindowBot102 -0.421875 -3.231 -16.125
+Checking overlaps for volume ArapucaWindowBot103 ... OK! 
+ArapucaWindowBot103 2.95312 -3.231 -16.125
+Checking overlaps for volume ArapucaWindowBot104 ... OK! 
+ArapucaWindowBot104 6.32812 -3.231 -16.125
+Checking overlaps for volume ArapucaWindowBot105 ... OK! 
+ArapucaWindowBot105 -5.48438 -3.231 -15.375
+Checking overlaps for volume ArapucaWindowBot106 ... OK! 
+ArapucaWindowBot106 -2.10938 -3.231 -15.375
+Checking overlaps for volume ArapucaWindowBot107 ... OK! 
+ArapucaWindowBot107 1.26562 -3.231 -15.375
+Checking overlaps for volume ArapucaWindowBot108 ... OK! 
+ArapucaWindowBot108 4.64062 -3.231 -15.375
+Checking overlaps for volume ArapucaWindowBot111 ... OK! 
+ArapucaWindowBot111 -4.64062 -3.231 -14.625
+Checking overlaps for volume ArapucaWindowBot112 ... OK! 
+ArapucaWindowBot112 -1.26562 -3.231 -14.625
+Checking overlaps for volume ArapucaWindowBot113 ... OK! 
+ArapucaWindowBot113 2.10938 -3.231 -14.625
+Checking overlaps for volume ArapucaWindowBot114 ... OK! 
+ArapucaWindowBot114 5.48438 -3.231 -14.625
+Checking overlaps for volume ArapucaWindowBot115 ... OK! 
+ArapucaWindowBot115 -6.32812 -3.231 -13.875
+Checking overlaps for volume ArapucaWindowBot116 ... OK! 
+ArapucaWindowBot116 -2.95312 -3.231 -13.875
+Checking overlaps for volume ArapucaWindowBot117 ... OK! 
+ArapucaWindowBot117 0.421875 -3.231 -13.875
+Checking overlaps for volume ArapucaWindowBot118 ... OK! 
+ArapucaWindowBot118 3.79688 -3.231 -13.875
+Checking overlaps for volume ArapucaWindowBot121 ... OK! 
+ArapucaWindowBot121 -3.79688 -3.231 -13.125
+Checking overlaps for volume ArapucaWindowBot122 ... OK! 
+ArapucaWindowBot122 -0.421875 -3.231 -13.125
+Checking overlaps for volume ArapucaWindowBot123 ... OK! 
+ArapucaWindowBot123 2.95312 -3.231 -13.125
+Checking overlaps for volume ArapucaWindowBot124 ... OK! 
+ArapucaWindowBot124 6.32812 -3.231 -13.125
+Checking overlaps for volume ArapucaWindowBot125 ... OK! 
+ArapucaWindowBot125 -5.48438 -3.231 -12.375
+Checking overlaps for volume ArapucaWindowBot126 ... OK! 
+ArapucaWindowBot126 -2.10938 -3.231 -12.375
+Checking overlaps for volume ArapucaWindowBot127 ... OK! 
+ArapucaWindowBot127 1.26562 -3.231 -12.375
+Checking overlaps for volume ArapucaWindowBot128 ... OK! 
+ArapucaWindowBot128 4.64062 -3.231 -12.375
+Checking overlaps for volume ArapucaWindowBot131 ... OK! 
+ArapucaWindowBot131 -4.64062 -3.231 -11.625
+Checking overlaps for volume ArapucaWindowBot132 ... OK! 
+ArapucaWindowBot132 -1.26562 -3.231 -11.625
+Checking overlaps for volume ArapucaWindowBot133 ... OK! 
+ArapucaWindowBot133 2.10938 -3.231 -11.625
+Checking overlaps for volume ArapucaWindowBot134 ... OK! 
+ArapucaWindowBot134 5.48438 -3.231 -11.625
+Checking overlaps for volume ArapucaWindowBot135 ... OK! 
+ArapucaWindowBot135 -6.32812 -3.231 -10.875
+Checking overlaps for volume ArapucaWindowBot136 ... OK! 
+ArapucaWindowBot136 -2.95312 -3.231 -10.875
+Checking overlaps for volume ArapucaWindowBot137 ... OK! 
+ArapucaWindowBot137 0.421875 -3.231 -10.875
+Checking overlaps for volume ArapucaWindowBot138 ... OK! 
+ArapucaWindowBot138 3.79688 -3.231 -10.875
+Checking overlaps for volume ArapucaWindowBot141 ... OK! 
+ArapucaWindowBot141 -3.79688 -3.231 -10.125
+Checking overlaps for volume ArapucaWindowBot142 ... OK! 
+ArapucaWindowBot142 -0.421875 -3.231 -10.125
+Checking overlaps for volume ArapucaWindowBot143 ... OK! 
+ArapucaWindowBot143 2.95312 -3.231 -10.125
+Checking overlaps for volume ArapucaWindowBot144 ... OK! 
+ArapucaWindowBot144 6.32812 -3.231 -10.125
+Checking overlaps for volume ArapucaWindowBot145 ... OK! 
+ArapucaWindowBot145 -5.48438 -3.231 -9.375
+Checking overlaps for volume ArapucaWindowBot146 ... OK! 
+ArapucaWindowBot146 -2.10938 -3.231 -9.375
+Checking overlaps for volume ArapucaWindowBot147 ... OK! 
+ArapucaWindowBot147 1.26562 -3.231 -9.375
+Checking overlaps for volume ArapucaWindowBot148 ... OK! 
+ArapucaWindowBot148 4.64062 -3.231 -9.375
+Checking overlaps for volume ArapucaWindowBot151 ... OK! 
+ArapucaWindowBot151 -4.64062 -3.231 -8.625
+Checking overlaps for volume ArapucaWindowBot152 ... OK! 
+ArapucaWindowBot152 -1.26562 -3.231 -8.625
+Checking overlaps for volume ArapucaWindowBot153 ... OK! 
+ArapucaWindowBot153 2.10938 -3.231 -8.625
+Checking overlaps for volume ArapucaWindowBot154 ... OK! 
+ArapucaWindowBot154 5.48438 -3.231 -8.625
+Checking overlaps for volume ArapucaWindowBot155 ... OK! 
+ArapucaWindowBot155 -6.32812 -3.231 -7.875
+Checking overlaps for volume ArapucaWindowBot156 ... OK! 
+ArapucaWindowBot156 -2.95312 -3.231 -7.875
+Checking overlaps for volume ArapucaWindowBot157 ... OK! 
+ArapucaWindowBot157 0.421875 -3.231 -7.875
+Checking overlaps for volume ArapucaWindowBot158 ... OK! 
+ArapucaWindowBot158 3.79688 -3.231 -7.875
+Checking overlaps for volume ArapucaWindowBot161 ... OK! 
+ArapucaWindowBot161 -3.79688 -3.231 -7.125
+Checking overlaps for volume ArapucaWindowBot162 ... OK! 
+ArapucaWindowBot162 -0.421875 -3.231 -7.125
+Checking overlaps for volume ArapucaWindowBot163 ... OK! 
+ArapucaWindowBot163 2.95312 -3.231 -7.125
+Checking overlaps for volume ArapucaWindowBot164 ... OK! 
+ArapucaWindowBot164 6.32812 -3.231 -7.125
+Checking overlaps for volume ArapucaWindowBot165 ... OK! 
+ArapucaWindowBot165 -5.48438 -3.231 -6.375
+Checking overlaps for volume ArapucaWindowBot166 ... OK! 
+ArapucaWindowBot166 -2.10938 -3.231 -6.375
+Checking overlaps for volume ArapucaWindowBot167 ... OK! 
+ArapucaWindowBot167 1.26562 -3.231 -6.375
+Checking overlaps for volume ArapucaWindowBot168 ... OK! 
+ArapucaWindowBot168 4.64062 -3.231 -6.375
+Checking overlaps for volume ArapucaWindowBot171 ... OK! 
+ArapucaWindowBot171 -4.64062 -3.231 -5.625
+Checking overlaps for volume ArapucaWindowBot172 ... OK! 
+ArapucaWindowBot172 -1.26562 -3.231 -5.625
+Checking overlaps for volume ArapucaWindowBot173 ... OK! 
+ArapucaWindowBot173 2.10938 -3.231 -5.625
+Checking overlaps for volume ArapucaWindowBot174 ... OK! 
+ArapucaWindowBot174 5.48438 -3.231 -5.625
+Checking overlaps for volume ArapucaWindowBot175 ... OK! 
+ArapucaWindowBot175 -6.32812 -3.231 -4.875
+Checking overlaps for volume ArapucaWindowBot176 ... OK! 
+ArapucaWindowBot176 -2.95312 -3.231 -4.875
+Checking overlaps for volume ArapucaWindowBot177 ... OK! 
+ArapucaWindowBot177 0.421875 -3.231 -4.875
+Checking overlaps for volume ArapucaWindowBot178 ... OK! 
+ArapucaWindowBot178 3.79688 -3.231 -4.875
+Checking overlaps for volume ArapucaWindowBot181 ... OK! 
+ArapucaWindowBot181 -3.79688 -3.231 -4.125
+Checking overlaps for volume ArapucaWindowBot182 ... OK! 
+ArapucaWindowBot182 -0.421875 -3.231 -4.125
+Checking overlaps for volume ArapucaWindowBot183 ... OK! 
+ArapucaWindowBot183 2.95312 -3.231 -4.125
+Checking overlaps for volume ArapucaWindowBot184 ... OK! 
+ArapucaWindowBot184 6.32812 -3.231 -4.125
+Checking overlaps for volume ArapucaWindowBot185 ... OK! 
+ArapucaWindowBot185 -5.48438 -3.231 -3.375
+Checking overlaps for volume ArapucaWindowBot186 ... OK! 
+ArapucaWindowBot186 -2.10938 -3.231 -3.375
+Checking overlaps for volume ArapucaWindowBot187 ... OK! 
+ArapucaWindowBot187 1.26562 -3.231 -3.375
+Checking overlaps for volume ArapucaWindowBot188 ... OK! 
+ArapucaWindowBot188 4.64062 -3.231 -3.375
+Checking overlaps for volume ArapucaWindowBot191 ... OK! 
+ArapucaWindowBot191 -4.64062 -3.231 -2.625
+Checking overlaps for volume ArapucaWindowBot192 ... OK! 
+ArapucaWindowBot192 -1.26562 -3.231 -2.625
+Checking overlaps for volume ArapucaWindowBot193 ... OK! 
+ArapucaWindowBot193 2.10938 -3.231 -2.625
+Checking overlaps for volume ArapucaWindowBot194 ... OK! 
+ArapucaWindowBot194 5.48438 -3.231 -2.625
+Checking overlaps for volume ArapucaWindowBot195 ... OK! 
+ArapucaWindowBot195 -6.32812 -3.231 -1.875
+Checking overlaps for volume ArapucaWindowBot196 ... OK! 
+ArapucaWindowBot196 -2.95312 -3.231 -1.875
+Checking overlaps for volume ArapucaWindowBot197 ... OK! 
+ArapucaWindowBot197 0.421875 -3.231 -1.875
+Checking overlaps for volume ArapucaWindowBot198 ... OK! 
+ArapucaWindowBot198 3.79688 -3.231 -1.875
+Checking overlaps for volume ArapucaWindowBot201 ... OK! 
+ArapucaWindowBot201 -3.79688 -3.231 -1.125
+Checking overlaps for volume ArapucaWindowBot202 ... OK! 
+ArapucaWindowBot202 -0.421875 -3.231 -1.125
+Checking overlaps for volume ArapucaWindowBot203 ... OK! 
+ArapucaWindowBot203 2.95312 -3.231 -1.125
+Checking overlaps for volume ArapucaWindowBot204 ... OK! 
+ArapucaWindowBot204 6.32812 -3.231 -1.125
+Checking overlaps for volume ArapucaWindowBot205 ... OK! 
+ArapucaWindowBot205 -5.48438 -3.231 -0.375
+Checking overlaps for volume ArapucaWindowBot206 ... OK! 
+ArapucaWindowBot206 -2.10938 -3.231 -0.375
+Checking overlaps for volume ArapucaWindowBot207 ... OK! 
+ArapucaWindowBot207 1.26562 -3.231 -0.375
+Checking overlaps for volume ArapucaWindowBot208 ... OK! 
+ArapucaWindowBot208 4.64062 -3.231 -0.375
+Checking overlaps for volume ArapucaWindowBot211 ... OK! 
+ArapucaWindowBot211 -4.64062 -3.231 0.375
+Checking overlaps for volume ArapucaWindowBot212 ... OK! 
+ArapucaWindowBot212 -1.26562 -3.231 0.375
+Checking overlaps for volume ArapucaWindowBot213 ... OK! 
+ArapucaWindowBot213 2.10938 -3.231 0.375
+Checking overlaps for volume ArapucaWindowBot214 ... OK! 
+ArapucaWindowBot214 5.48438 -3.231 0.375
+Checking overlaps for volume ArapucaWindowBot215 ... OK! 
+ArapucaWindowBot215 -6.32812 -3.231 1.125
+Checking overlaps for volume ArapucaWindowBot216 ... OK! 
+ArapucaWindowBot216 -2.95312 -3.231 1.125
+Checking overlaps for volume ArapucaWindowBot217 ... OK! 
+ArapucaWindowBot217 0.421875 -3.231 1.125
+Checking overlaps for volume ArapucaWindowBot218 ... OK! 
+ArapucaWindowBot218 3.79688 -3.231 1.125
+Checking overlaps for volume ArapucaWindowBot221 ... OK! 
+ArapucaWindowBot221 -3.79688 -3.231 1.875
+Checking overlaps for volume ArapucaWindowBot222 ... OK! 
+ArapucaWindowBot222 -0.421875 -3.231 1.875
+Checking overlaps for volume ArapucaWindowBot223 ... OK! 
+ArapucaWindowBot223 2.95312 -3.231 1.875
+Checking overlaps for volume ArapucaWindowBot224 ... OK! 
+ArapucaWindowBot224 6.32812 -3.231 1.875
+Checking overlaps for volume ArapucaWindowBot225 ... OK! 
+ArapucaWindowBot225 -5.48438 -3.231 2.625
+Checking overlaps for volume ArapucaWindowBot226 ... OK! 
+ArapucaWindowBot226 -2.10938 -3.231 2.625
+Checking overlaps for volume ArapucaWindowBot227 ... OK! 
+ArapucaWindowBot227 1.26562 -3.231 2.625
+Checking overlaps for volume ArapucaWindowBot228 ... OK! 
+ArapucaWindowBot228 4.64062 -3.231 2.625
+Checking overlaps for volume ArapucaWindowBot231 ... OK! 
+ArapucaWindowBot231 -4.64062 -3.231 3.375
+Checking overlaps for volume ArapucaWindowBot232 ... OK! 
+ArapucaWindowBot232 -1.26562 -3.231 3.375
+Checking overlaps for volume ArapucaWindowBot233 ... OK! 
+ArapucaWindowBot233 2.10938 -3.231 3.375
+Checking overlaps for volume ArapucaWindowBot234 ... OK! 
+ArapucaWindowBot234 5.48438 -3.231 3.375
+Checking overlaps for volume ArapucaWindowBot235 ... OK! 
+ArapucaWindowBot235 -6.32812 -3.231 4.125
+Checking overlaps for volume ArapucaWindowBot236 ... OK! 
+ArapucaWindowBot236 -2.95312 -3.231 4.125
+Checking overlaps for volume ArapucaWindowBot237 ... OK! 
+ArapucaWindowBot237 0.421875 -3.231 4.125
+Checking overlaps for volume ArapucaWindowBot238 ... OK! 
+ArapucaWindowBot238 3.79688 -3.231 4.125
+Checking overlaps for volume ArapucaWindowBot241 ... OK! 
+ArapucaWindowBot241 -3.79688 -3.231 4.875
+Checking overlaps for volume ArapucaWindowBot242 ... OK! 
+ArapucaWindowBot242 -0.421875 -3.231 4.875
+Checking overlaps for volume ArapucaWindowBot243 ... OK! 
+ArapucaWindowBot243 2.95312 -3.231 4.875
+Checking overlaps for volume ArapucaWindowBot244 ... OK! 
+ArapucaWindowBot244 6.32812 -3.231 4.875
+Checking overlaps for volume ArapucaWindowBot245 ... OK! 
+ArapucaWindowBot245 -5.48438 -3.231 5.625
+Checking overlaps for volume ArapucaWindowBot246 ... OK! 
+ArapucaWindowBot246 -2.10938 -3.231 5.625
+Checking overlaps for volume ArapucaWindowBot247 ... OK! 
+ArapucaWindowBot247 1.26562 -3.231 5.625
+Checking overlaps for volume ArapucaWindowBot248 ... OK! 
+ArapucaWindowBot248 4.64062 -3.231 5.625
+Checking overlaps for volume ArapucaWindowBot251 ... OK! 
+ArapucaWindowBot251 -4.64062 -3.231 6.375
+Checking overlaps for volume ArapucaWindowBot252 ... OK! 
+ArapucaWindowBot252 -1.26562 -3.231 6.375
+Checking overlaps for volume ArapucaWindowBot253 ... OK! 
+ArapucaWindowBot253 2.10938 -3.231 6.375
+Checking overlaps for volume ArapucaWindowBot254 ... OK! 
+ArapucaWindowBot254 5.48438 -3.231 6.375
+Checking overlaps for volume ArapucaWindowBot255 ... OK! 
+ArapucaWindowBot255 -6.32812 -3.231 7.125
+Checking overlaps for volume ArapucaWindowBot256 ... OK! 
+ArapucaWindowBot256 -2.95312 -3.231 7.125
+Checking overlaps for volume ArapucaWindowBot257 ... OK! 
+ArapucaWindowBot257 0.421875 -3.231 7.125
+Checking overlaps for volume ArapucaWindowBot258 ... OK! 
+ArapucaWindowBot258 3.79688 -3.231 7.125
+Checking overlaps for volume ArapucaWindowBot261 ... OK! 
+ArapucaWindowBot261 -3.79688 -3.231 7.875
+Checking overlaps for volume ArapucaWindowBot262 ... OK! 
+ArapucaWindowBot262 -0.421875 -3.231 7.875
+Checking overlaps for volume ArapucaWindowBot263 ... OK! 
+ArapucaWindowBot263 2.95312 -3.231 7.875
+Checking overlaps for volume ArapucaWindowBot264 ... OK! 
+ArapucaWindowBot264 6.32812 -3.231 7.875
+Checking overlaps for volume ArapucaWindowBot265 ... OK! 
+ArapucaWindowBot265 -5.48438 -3.231 8.625
+Checking overlaps for volume ArapucaWindowBot266 ... OK! 
+ArapucaWindowBot266 -2.10938 -3.231 8.625
+Checking overlaps for volume ArapucaWindowBot267 ... OK! 
+ArapucaWindowBot267 1.26562 -3.231 8.625
+Checking overlaps for volume ArapucaWindowBot268 ... OK! 
+ArapucaWindowBot268 4.64062 -3.231 8.625
+Checking overlaps for volume ArapucaWindowBot271 ... OK! 
+ArapucaWindowBot271 -4.64062 -3.231 9.375
+Checking overlaps for volume ArapucaWindowBot272 ... OK! 
+ArapucaWindowBot272 -1.26562 -3.231 9.375
+Checking overlaps for volume ArapucaWindowBot273 ... OK! 
+ArapucaWindowBot273 2.10938 -3.231 9.375
+Checking overlaps for volume ArapucaWindowBot274 ... OK! 
+ArapucaWindowBot274 5.48438 -3.231 9.375
+Checking overlaps for volume ArapucaWindowBot275 ... OK! 
+ArapucaWindowBot275 -6.32812 -3.231 10.125
+Checking overlaps for volume ArapucaWindowBot276 ... OK! 
+ArapucaWindowBot276 -2.95312 -3.231 10.125
+Checking overlaps for volume ArapucaWindowBot277 ... OK! 
+ArapucaWindowBot277 0.421875 -3.231 10.125
+Checking overlaps for volume ArapucaWindowBot278 ... OK! 
+ArapucaWindowBot278 3.79688 -3.231 10.125
+Checking overlaps for volume ArapucaWindowBot281 ... OK! 
+ArapucaWindowBot281 -3.79688 -3.231 10.875
+Checking overlaps for volume ArapucaWindowBot282 ... OK! 
+ArapucaWindowBot282 -0.421875 -3.231 10.875
+Checking overlaps for volume ArapucaWindowBot283 ... OK! 
+ArapucaWindowBot283 2.95312 -3.231 10.875
+Checking overlaps for volume ArapucaWindowBot284 ... OK! 
+ArapucaWindowBot284 6.32812 -3.231 10.875
+Checking overlaps for volume ArapucaWindowBot285 ... OK! 
+ArapucaWindowBot285 -5.48438 -3.231 11.625
+Checking overlaps for volume ArapucaWindowBot286 ... OK! 
+ArapucaWindowBot286 -2.10938 -3.231 11.625
+Checking overlaps for volume ArapucaWindowBot287 ... OK! 
+ArapucaWindowBot287 1.26562 -3.231 11.625
+Checking overlaps for volume ArapucaWindowBot288 ... OK! 
+ArapucaWindowBot288 4.64062 -3.231 11.625
+Checking overlaps for volume ArapucaWindowBot291 ... OK! 
+ArapucaWindowBot291 -4.64062 -3.231 12.375
+Checking overlaps for volume ArapucaWindowBot292 ... OK! 
+ArapucaWindowBot292 -1.26562 -3.231 12.375
+Checking overlaps for volume ArapucaWindowBot293 ... OK! 
+ArapucaWindowBot293 2.10938 -3.231 12.375
+Checking overlaps for volume ArapucaWindowBot294 ... OK! 
+ArapucaWindowBot294 5.48438 -3.231 12.375
+Checking overlaps for volume ArapucaWindowBot295 ... OK! 
+ArapucaWindowBot295 -6.32812 -3.231 13.125
+Checking overlaps for volume ArapucaWindowBot296 ... OK! 
+ArapucaWindowBot296 -2.95312 -3.231 13.125
+Checking overlaps for volume ArapucaWindowBot297 ... OK! 
+ArapucaWindowBot297 0.421875 -3.231 13.125
+Checking overlaps for volume ArapucaWindowBot298 ... OK! 
+ArapucaWindowBot298 3.79688 -3.231 13.125
+Checking overlaps for volume ArapucaWindowBot301 ... OK! 
+ArapucaWindowBot301 -3.79688 -3.231 13.875
+Checking overlaps for volume ArapucaWindowBot302 ... OK! 
+ArapucaWindowBot302 -0.421875 -3.231 13.875
+Checking overlaps for volume ArapucaWindowBot303 ... OK! 
+ArapucaWindowBot303 2.95312 -3.231 13.875
+Checking overlaps for volume ArapucaWindowBot304 ... OK! 
+ArapucaWindowBot304 6.32812 -3.231 13.875
+Checking overlaps for volume ArapucaWindowBot305 ... OK! 
+ArapucaWindowBot305 -5.48438 -3.231 14.625
+Checking overlaps for volume ArapucaWindowBot306 ... OK! 
+ArapucaWindowBot306 -2.10938 -3.231 14.625
+Checking overlaps for volume ArapucaWindowBot307 ... OK! 
+ArapucaWindowBot307 1.26562 -3.231 14.625
+Checking overlaps for volume ArapucaWindowBot308 ... OK! 
+ArapucaWindowBot308 4.64062 -3.231 14.625
+Checking overlaps for volume ArapucaWindowBot311 ... OK! 
+ArapucaWindowBot311 -4.64062 -3.231 15.375
+Checking overlaps for volume ArapucaWindowBot312 ... OK! 
+ArapucaWindowBot312 -1.26562 -3.231 15.375
+Checking overlaps for volume ArapucaWindowBot313 ... OK! 
+ArapucaWindowBot313 2.10938 -3.231 15.375
+Checking overlaps for volume ArapucaWindowBot314 ... OK! 
+ArapucaWindowBot314 5.48438 -3.231 15.375
+Checking overlaps for volume ArapucaWindowBot315 ... OK! 
+ArapucaWindowBot315 -6.32812 -3.231 16.125
+Checking overlaps for volume ArapucaWindowBot316 ... OK! 
+ArapucaWindowBot316 -2.95312 -3.231 16.125
+Checking overlaps for volume ArapucaWindowBot317 ... OK! 
+ArapucaWindowBot317 0.421875 -3.231 16.125
+Checking overlaps for volume ArapucaWindowBot318 ... OK! 
+ArapucaWindowBot318 3.79688 -3.231 16.125
+Checking overlaps for volume ArapucaWindowBot321 ... OK! 
+ArapucaWindowBot321 -3.79688 -3.231 16.875
+Checking overlaps for volume ArapucaWindowBot322 ... OK! 
+ArapucaWindowBot322 -0.421875 -3.231 16.875
+Checking overlaps for volume ArapucaWindowBot323 ... OK! 
+ArapucaWindowBot323 2.95312 -3.231 16.875
+Checking overlaps for volume ArapucaWindowBot324 ... OK! 
+ArapucaWindowBot324 6.32812 -3.231 16.875
+Checking overlaps for volume ArapucaWindowBot325 ... OK! 
+ArapucaWindowBot325 -5.48438 -3.231 17.625
+Checking overlaps for volume ArapucaWindowBot326 ... OK! 
+ArapucaWindowBot326 -2.10938 -3.231 17.625
+Checking overlaps for volume ArapucaWindowBot327 ... OK! 
+ArapucaWindowBot327 1.26562 -3.231 17.625
+Checking overlaps for volume ArapucaWindowBot328 ... OK! 
+ArapucaWindowBot328 4.64062 -3.231 17.625
+Checking overlaps for volume ArapucaWindowBot331 ... OK! 
+ArapucaWindowBot331 -4.64062 -3.231 18.375
+Checking overlaps for volume ArapucaWindowBot332 ... OK! 
+ArapucaWindowBot332 -1.26562 -3.231 18.375
+Checking overlaps for volume ArapucaWindowBot333 ... OK! 
+ArapucaWindowBot333 2.10938 -3.231 18.375
+Checking overlaps for volume ArapucaWindowBot334 ... OK! 
+ArapucaWindowBot334 5.48438 -3.231 18.375
+Checking overlaps for volume ArapucaWindowBot335 ... OK! 
+ArapucaWindowBot335 -6.32812 -3.231 19.125
+Checking overlaps for volume ArapucaWindowBot336 ... OK! 
+ArapucaWindowBot336 -2.95312 -3.231 19.125
+Checking overlaps for volume ArapucaWindowBot337 ... OK! 
+ArapucaWindowBot337 0.421875 -3.231 19.125
+Checking overlaps for volume ArapucaWindowBot338 ... OK! 
+ArapucaWindowBot338 3.79688 -3.231 19.125
+Checking overlaps for volume ArapucaWindowBot341 ... OK! 
+ArapucaWindowBot341 -3.79688 -3.231 19.875
+Checking overlaps for volume ArapucaWindowBot342 ... OK! 
+ArapucaWindowBot342 -0.421875 -3.231 19.875
+Checking overlaps for volume ArapucaWindowBot343 ... OK! 
+ArapucaWindowBot343 2.95312 -3.231 19.875
+Checking overlaps for volume ArapucaWindowBot344 ... OK! 
+ArapucaWindowBot344 6.32812 -3.231 19.875
+Checking overlaps for volume ArapucaWindowBot345 ... OK! 
+ArapucaWindowBot345 -5.48438 -3.231 20.625
+Checking overlaps for volume ArapucaWindowBot346 ... OK! 
+ArapucaWindowBot346 -2.10938 -3.231 20.625
+Checking overlaps for volume ArapucaWindowBot347 ... OK! 
+ArapucaWindowBot347 1.26562 -3.231 20.625
+Checking overlaps for volume ArapucaWindowBot348 ... OK! 
+ArapucaWindowBot348 4.64062 -3.231 20.625
+Checking overlaps for volume ArapucaWindowBot351 ... OK! 
+ArapucaWindowBot351 -4.64062 -3.231 21.375
+Checking overlaps for volume ArapucaWindowBot352 ... OK! 
+ArapucaWindowBot352 -1.26562 -3.231 21.375
+Checking overlaps for volume ArapucaWindowBot353 ... OK! 
+ArapucaWindowBot353 2.10938 -3.231 21.375
+Checking overlaps for volume ArapucaWindowBot354 ... OK! 
+ArapucaWindowBot354 5.48438 -3.231 21.375
+Checking overlaps for volume ArapucaWindowBot355 ... OK! 
+ArapucaWindowBot355 -6.32812 -3.231 22.125
+Checking overlaps for volume ArapucaWindowBot356 ... OK! 
+ArapucaWindowBot356 -2.95312 -3.231 22.125
+Checking overlaps for volume ArapucaWindowBot357 ... OK! 
+ArapucaWindowBot357 0.421875 -3.231 22.125
+Checking overlaps for volume ArapucaWindowBot358 ... OK! 
+ArapucaWindowBot358 3.79688 -3.231 22.125
+Checking overlaps for volume ArapucaWindowBot361 ... OK! 
+ArapucaWindowBot361 -3.79688 -3.231 22.875
+Checking overlaps for volume ArapucaWindowBot362 ... OK! 
+ArapucaWindowBot362 -0.421875 -3.231 22.875
+Checking overlaps for volume ArapucaWindowBot363 ... OK! 
+ArapucaWindowBot363 2.95312 -3.231 22.875
+Checking overlaps for volume ArapucaWindowBot364 ... OK! 
+ArapucaWindowBot364 6.32812 -3.231 22.875
+Checking overlaps for volume ArapucaWindowBot365 ... OK! 
+ArapucaWindowBot365 -5.48438 -3.231 23.625
+Checking overlaps for volume ArapucaWindowBot366 ... OK! 
+ArapucaWindowBot366 -2.10938 -3.231 23.625
+Checking overlaps for volume ArapucaWindowBot367 ... OK! 
+ArapucaWindowBot367 1.26562 -3.231 23.625
+Checking overlaps for volume ArapucaWindowBot368 ... OK! 
+ArapucaWindowBot368 4.64062 -3.231 23.625
+Checking overlaps for volume ArapucaWindowBot371 ... OK! 
+ArapucaWindowBot371 -4.64062 -3.231 24.375
+Checking overlaps for volume ArapucaWindowBot372 ... OK! 
+ArapucaWindowBot372 -1.26562 -3.231 24.375
+Checking overlaps for volume ArapucaWindowBot373 ... OK! 
+ArapucaWindowBot373 2.10938 -3.231 24.375
+Checking overlaps for volume ArapucaWindowBot374 ... OK! 
+ArapucaWindowBot374 5.48438 -3.231 24.375
+Checking overlaps for volume ArapucaWindowBot375 ... OK! 
+ArapucaWindowBot375 -6.32812 -3.231 25.125
+Checking overlaps for volume ArapucaWindowBot376 ... OK! 
+ArapucaWindowBot376 -2.95312 -3.231 25.125
+Checking overlaps for volume ArapucaWindowBot377 ... OK! 
+ArapucaWindowBot377 0.421875 -3.231 25.125
+Checking overlaps for volume ArapucaWindowBot378 ... OK! 
+ArapucaWindowBot378 3.79688 -3.231 25.125
+Checking overlaps for volume ArapucaWindowBot381 ... OK! 
+ArapucaWindowBot381 -3.79688 -3.231 25.875
+Checking overlaps for volume ArapucaWindowBot382 ... OK! 
+ArapucaWindowBot382 -0.421875 -3.231 25.875
+Checking overlaps for volume ArapucaWindowBot383 ... OK! 
+ArapucaWindowBot383 2.95312 -3.231 25.875
+Checking overlaps for volume ArapucaWindowBot384 ... OK! 
+ArapucaWindowBot384 6.32812 -3.231 25.875
+Checking overlaps for volume ArapucaWindowBot385 ... OK! 
+ArapucaWindowBot385 -5.48438 -3.231 26.625
+Checking overlaps for volume ArapucaWindowBot386 ... OK! 
+ArapucaWindowBot386 -2.10938 -3.231 26.625
+Checking overlaps for volume ArapucaWindowBot387 ... OK! 
+ArapucaWindowBot387 1.26562 -3.231 26.625
+Checking overlaps for volume ArapucaWindowBot388 ... OK! 
+ArapucaWindowBot388 4.64062 -3.231 26.625
+Checking overlaps for volume ArapucaWindowBot391 ... OK! 
+ArapucaWindowBot391 -4.64062 -3.231 27.375
+Checking overlaps for volume ArapucaWindowBot392 ... OK! 
+ArapucaWindowBot392 -1.26562 -3.231 27.375
+Checking overlaps for volume ArapucaWindowBot393 ... OK! 
+ArapucaWindowBot393 2.10938 -3.231 27.375
+Checking overlaps for volume ArapucaWindowBot394 ... OK! 
+ArapucaWindowBot394 5.48438 -3.231 27.375
+Checking overlaps for volume ArapucaWindowBot395 ... OK! 
+ArapucaWindowBot395 -6.32812 -3.231 28.125
+Checking overlaps for volume ArapucaWindowBot396 ... OK! 
+ArapucaWindowBot396 -2.95312 -3.231 28.125
+Checking overlaps for volume ArapucaWindowBot397 ... OK! 
+ArapucaWindowBot397 0.421875 -3.231 28.125
+Checking overlaps for volume ArapucaWindowBot398 ... OK! 
+ArapucaWindowBot398 3.79688 -3.231 28.125
+Checking overlaps for volume ArapucaWindowBot401 ... OK! 
+ArapucaWindowBot401 -3.79688 -3.231 28.875
+Checking overlaps for volume ArapucaWindowBot402 ... OK! 
+ArapucaWindowBot402 -0.421875 -3.231 28.875
+Checking overlaps for volume ArapucaWindowBot403 ... OK! 
+ArapucaWindowBot403 2.95312 -3.231 28.875
+Checking overlaps for volume ArapucaWindowBot404 ... OK! 
+ArapucaWindowBot404 6.32812 -3.231 28.875
+Checking overlaps for volume ArapucaWindowBot405 ... OK! 
+ArapucaWindowBot405 -5.48438 -3.231 29.625
+Checking overlaps for volume ArapucaWindowBot406 ... OK! 
+ArapucaWindowBot406 -2.10938 -3.231 29.625
+Checking overlaps for volume ArapucaWindowBot407 ... OK! 
+ArapucaWindowBot407 1.26562 -3.231 29.625
+Checking overlaps for volume ArapucaWindowBot408 ... OK! 
+ArapucaWindowBot408 4.64062 -3.231 29.625
+Checking overlaps for volume ShortArapucaWalls ... OK! 
+Checking overlaps for volume ShortArapucaWalls ... OK! 
+Checking overlaps for volume ShortArapucaWalls ... OK! 
+Checking overlaps for volume ShortArapucaWalls ... OK! 
+Checking overlaps for volume ArapucaWindowShortLat11 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat11 ... OK! 
+ArapucaWindowShortLat11 -2.2 2.75 30.881
+ArapucaWindowLShortlat11 -2.2 2.75 -30.881
+Checking overlaps for volume ArapucaWindowShortLat12 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat12 ... OK! 
+ArapucaWindowShortLat12 2.2 2.75 30.881
+ArapucaWindowLShortlat12 2.2 2.75 -30.881
+Checking overlaps for volume ArapucaWindowShortLat21 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat21 ... OK! 
+ArapucaWindowShortLat21 -2.2 1.95 30.881
+ArapucaWindowLShortlat21 -2.2 1.95 -30.881
+Checking overlaps for volume ArapucaWindowShortLat22 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat22 ... OK! 
+ArapucaWindowShortLat22 2.2 1.95 30.881
+ArapucaWindowLShortlat22 2.2 1.95 -30.881
+Checking overlaps for volume ArapucaWindowShortLat31 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat31 ... OK! 
+ArapucaWindowShortLat31 -2.2 1.15 30.881
+ArapucaWindowLShortlat31 -2.2 1.15 -30.881
+Checking overlaps for volume ArapucaWindowShortLat32 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat32 ... OK! 
+ArapucaWindowShortLat32 2.2 1.15 30.881
+ArapucaWindowLShortlat32 2.2 1.15 -30.881
+Checking overlaps for volume ArapucaWindowShortLat41 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat41 ... OK! 
+ArapucaWindowShortLat41 -2.2 0.35 30.881
+ArapucaWindowLShortlat41 -2.2 0.35 -30.881
+Checking overlaps for volume ArapucaWindowShortLat42 ... OK! 
+Checking overlaps for volume ArapucaWindowLShortlat42 ... OK! 
+ArapucaWindowShortLat42 2.2 0.35 30.881
+ArapucaWindowLShortlat42 2.2 0.35 -30.881
+### Birks coefficients used in run time
+   G4_lAr     0.032 mm/MeV     0.0044672 g/cm^2/MeV  massFactor=  23.4875 effCharge= 324
+ AddDiscreteProcess to OpticalPhoton 
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+gMocrenFile (gMocrenFile)
+OpenGLImmediateX (OGLIX, OGLI)
+OpenGLStoredX (OGLSX, OGL, OGLS)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+Available colours:
+  black, blue, brown, cyan, gray, green, grey, magenta, red, white, yellow
+
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        BetheHeitler :  Emin=        0 eV    Emax=       80 GeV
+     BetheHeitlerLPM :  Emin=       80 GeV   Emax=      100 TeV
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 100 eV  to 1 MeV, 7 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina :  Emin=        0 eV    Emax=      100 TeV
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       PhotoElectric :  Emin=        0 eV    Emax=      100 TeV   AngularGenSauterGavrila
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 1, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=      100 TeV
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+            eBremLPM :  Emin=        1 GeV   Emax=      100 TeV   DipBustGen
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 1, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=      100 TeV
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+            eBremLPM :  Emin=        1 GeV   Emax=      100 TeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  proton    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV
+
+hIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+msc:   for alpha    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  alpha    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=   7.9452 MeV
+          BetheBloch :  Emin=   7.9452 MeV   Emax=      100 TeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  anti_proton    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV
+          BetheBloch :  Emin=  1.05231 MeV   Emax=      100 TeV
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV
+          BetheBloch :  Emin=  1.05231 MeV   Emax=      100 TeV
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 0, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV
+        MuBetheBloch :  Emin=        1 GeV   Emax=      100 TeV
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=      100 TeV
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 0, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV
+        MuBetheBloch :  Emin=        1 GeV   Emax=      100 TeV
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=      100 TeV
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV
+          BetheBloch :  Emin=  297.505 keV   Emax=      100 TeV
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV
+          BetheBloch :  Emin=  297.505 keV   Emax=      100 TeV
+
+========= Table of registered couples ==============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_lAr
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  6.19986 keV    e-  349.521 keV    e+  337.972 keV proton 100 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : StainlessSteel
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  20.6438 keV    e-  1.29592 MeV    e+  1.22809 MeV proton 100 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : Aluminium
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  6.90363 keV    e-  598.345 keV    e+  570.85 keV proton 100 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : acrylic
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  2.76798 keV    e-  389.196 keV    e+  376.336 keV proton 100 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+====================================================================
+
+##### Create analysis manager   0xb257e0
+Using Root analysis manager
+Xlimit, Ylimit, Zlimit 6.75 3.25 5

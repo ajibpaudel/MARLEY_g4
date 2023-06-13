@@ -1,0 +1,12 @@
+/tracking/storeTrajectory 1
+
+/run/initialize
+
+# Uncomment this line of you want visualization
+#/control/execute vis.mac
+
+/tracking/verbose 0
+/run/verbose 0
+
+##default /run/beamOn 1000000
+/run/beamOn 5

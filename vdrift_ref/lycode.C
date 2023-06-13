@@ -1,0 +1,14 @@
+{
+  int energy=100;//MeV
+  TFile f(Form("arapuca_%dMeV.root",energy));
+  // TFile f("arapucatext.root");
+
+  TH1F *hist=(TH1F*)f.Get("hv");
+  Ninc=24000*energy;
+
+  hist->Draw();
+  double Npe=0;
+  Npe=hist->Integral(5, 164)+hist->Integral(165, 484)+hist->Integral(637, 676);
+  std::cout<<"Number of photons hitting the detectors "<<Npe<<" percentage "<<100*(Npe/Ninc)<<" %"<<std::endl;
+
+}
